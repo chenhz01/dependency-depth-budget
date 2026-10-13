@@ -4,6 +4,8 @@ Declare a budget for your dependency tree — depth, breadth and total nodes —
 
 As of 2026-10-13, no direct equivalent found as of 2026-10-13: dependency audit tools check *versions and vulnerabilities*; searches across GitHub (194 queries) and the web found no standalone shape-budget (depth/breadth/width/total) checker.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Dependency trees grow one "small helper" at a time. Transitive chains deepen until upgrade debugging means spelunking ten levels of indirection, and fan-out widens until one package pin breaks thirty builds. Vulnerability scanners tell you a version is bad; nothing tells you the tree's *shape* is past the point where a human can reason about it. There is no budget, so there is no breach.
